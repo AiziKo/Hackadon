@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="wrap_content"
+            android:layout_height="154dp"
+            android:layout_gravity="end"
+            android:text="0 0 0 0 1 4 €"
+            android:textSize="130sp"
+            android:textColor="#0f60a0"
+            android:fontFamily="@font/font_edm"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="285dp"
+            android:layout_height="170dp"
+            android:gravity="start"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/entrepreneurs" />
+
+        <VideoView
+            android:id="@+id/video_asso"
+            android:layout_width="637dp"
+            android:layout_height="341dp"
+            android:gravity="center"
+            android:layout_margin="25dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="AVEC PRESQUE RIEN\nON PEUT CHANGER\nPRESQUE TOUT !"
+            android:textSize="27sp"
+            android:gravity="center"
+            android:textColor="#0f60a0"
+            android:fontFamily="@font/font_edm"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/button_charge_1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/euro1"
+            android:layout_margin="16dp"
+            android:textSize="100sp" />
+
+        <ImageButton
+            android:id="@+id/button_charge_2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/euro2"
+            android:layout_margin="16dp"
+            android:textSize="100sp" />
+
+        <ImageButton
+            android:id="@+id/button_charge_5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/euro5"
+            android:layout_margin="16dp"
+            android:textSize="100sp" />
+
+        <ImageButton
+            android:id="@+id/button_charge_10"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/euro10"
+            android:layout_margin="16dp"
+            android:textSize="100sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

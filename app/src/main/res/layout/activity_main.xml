@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity"
+  android:orientation="vertical"
+  android:padding="16dp"
+  android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/button_charge_1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/euro1"
+                android:layout_margin="16dp"
+                android:textSize="100sp" />
+
+            <ImageButton
+                android:id="@+id/button_charge_2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/euro2"
+                android:layout_margin="16dp"
+                android:textSize="100sp" />
+
+            <ImageButton
+                android:id="@+id/button_charge_5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/euro5"
+                android:layout_margin="16dp"
+                android:textSize="100sp" />
+
+            <ImageButton
+                android:id="@+id/button_charge_10"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/euro10"
+                android:layout_margin="16dp"
+                android:textSize="100sp" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                tools:text="Result code: -" />
+
+            <TextView
+                android:id="@+id/result_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                tools:text="Message: -" />
+
+            <TextView
+                android:id="@+id/tx_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                tools:text="Transaction Code: -" />
+
+            <TextView
+                android:id="@+id/receipt_sent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                tools:text="Receipt sent : -" />
+
+            <TextView
+                android:id="@+id/tx_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                tools:text="Transaction Info : -" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
